@@ -1,0 +1,39 @@
+body {
+  background: linear-gradient(120deg, #5f8cff, #a3d9ff);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #333;
+  margin: 0;
+}
+
+.bg-lightblue {
+  background-color: #e9f3ff;
+}
+
+.contact-card {
+  width: 100%;
+  max-width: 500px;
+  background-color: #fff;
+  animation: slideUp 1s ease-out;
+}
+
+@keyframes slideUp {
+  from {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+#output {
+  border-top: 1px solid #ddd;
+  padding-top: 15px;
+  animation: fadeIn 0.8s ease-in-out;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to   { opacity: 1; }
+}
